@@ -1,0 +1,12 @@
+install python
+python -m venv venv
+venv\Scripts\activate
+
+pip list
+
+pip install --upgrade tensorflow
+
+pip install pandas matplotlib pandas_datareader streamlit sklearn
+
+run-----
+streamlit run app.py
